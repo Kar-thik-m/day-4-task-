@@ -1,6 +1,6 @@
 //Q>no:3(API URL)
 //but >>Service Unavailable<<..
-var world=XMLHttpRequest();
+var world= new XMLHttpRequest();
 world.open("GET","https://restcountries.com/v3.1/all");
 world.send();
 world.onload=function(){
